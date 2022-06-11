@@ -1,0 +1,20 @@
+.login {
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-banner {
+  height: calc(100vh - 60px);
+
+  background-image: url('https://i.ibb.co/Jnh4Cyj/image.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+@media screen and (max-width: 768px) {
+  .home-banner {
+    display: none;
+  }
+}
